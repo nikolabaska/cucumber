@@ -1,1 +1,63 @@
+package objects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Addtocart {
+	
+	WebDriver driver;
+	
+	By Woman =By.xpath("//*[@id=\"block_top_menu\"]/ul/li[1]/a");
+	By Product =By.xpath("//*[@id=\"center_column\"]/ul/li[1]/div/div[1]/div/a[1]/img");
+	By Addtocart =By.xpath("(//span[text()='Add to cart'])[1]");
+	package objects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Addtocart {
+	
+	WebDriver driver;
+	
+	By Woman =By.xpath("//*[@id=\"block_top_menu\"]/ul/li[1]/a");
+	By Product =By.xpath("//*[@id=\"center_column\"]/ul/li[1]/div/div[1]/div/a[1]/img");
+	By Addtocart =By.xpath("(//span[text()='Add to cart'])[1]");
+	
+	//constructor
+	
+	public Addtocart(WebDriver driver) {
+		this.driver= driver;
+	}
+	
+	public void Woman() {
+		driver.findElement(Woman).click();
+	}
+	
+	public void Product() {
+		driver.findElement(Product).click();
+	}
+	
+	public void Addtocart() {
+		driver.findElement(Addtocart).click();
+	}
+}
+
+	//constructor
+	
+	public Addtocart(WebDriver driver) {
+		this.driver= driver;
+	}
+	
+	public void Woman() {
+		driver.findElement(Woman).click();
+	}
+	
+	public void Product() {
+		driver.findElement(Product).click();
+	}
+	
+	public void Addtocart() {
+		driver.findElement(Addtocart).click();
+	}
+}
 
